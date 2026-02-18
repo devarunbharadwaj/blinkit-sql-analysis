@@ -1,0 +1,82 @@
+﻿product_id,product_name,category,price,margin_percentage,shelf_life_days
+669378,Potatoes,Fruits & Vegetables,212.14,25.00,3
+965755,Bananas,Fruits & Vegetables,532.57,25.00,3
+222892,Tomatoes,Fruits & Vegetables,869.22,25.00,3
+516376,Onions,Fruits & Vegetables,877.43,25.00,3
+34186,Mangoes,Fruits & Vegetables,925.65,25.00,3
+812607,Potatoes,Fruits & Vegetables,416.65,25.00,3
+14145,Spinach,Fruits & Vegetables,630.84,25.00,3
+70969,Carrots,Fruits & Vegetables,631.70,25.00,3
+952124,Onions,Fruits & Vegetables,127.08,25.00,3
+888807,Bread,Dairy & Breakfast,230.58,20.00,7
+67197,Butter,Dairy & Breakfast,552.20,20.00,7
+891833,Curd,Dairy & Breakfast,493.19,20.00,7
+741341,Eggs,Dairy & Breakfast,923.84,20.00,7
+500739,Bread,Dairy & Breakfast,359.98,20.00,7
+500633,Cereal,Dairy & Breakfast,154.50,20.00,7
+799952,Cheese,Dairy & Breakfast,922.64,20.00,7
+798639,Eggs,Dairy & Breakfast,211.25,20.00,7
+324809,Bread,Dairy & Breakfast,608.00,20.00,7
+734789,Popcorn,Snacks & Munchies,395.82,35.00,90
+690565,Cookies,Snacks & Munchies,951.27,35.00,90
+952168,Popcorn,Snacks & Munchies,236.95,35.00,90
+602241,Nuts,Snacks & Munchies,976.55,35.00,90
+567671,Biscuits,Snacks & Munchies,418.48,35.00,90
+540618,Popcorn,Snacks & Munchies,317.05,35.00,90
+60619,Iced Tea,Cold Drinks & Juices,726.41,30.00,180
+687218,Mango Drink,Cold Drinks & Juices,317.82,30.00,180
+681063,Mango Drink,Cold Drinks & Juices,321.28,30.00,180
+300159,Cola,Cold Drinks & Juices,44.35,30.00,180
+561860,Orange Juice,Cold Drinks & Juices,874.78,30.00,180
+962054,Orange Juice,Cold Drinks & Juices,16.86,30.00,180
+378676,Orange Juice,Cold Drinks & Juices,881.42,30.00,180
+890232,Mango Drink,Cold Drinks & Juices,432.00,30.00,180
+532965,Frozen Pizza,Instant & Frozen Food,307.23,40.00,180
+33955,Frozen Pizza,Instant & Frozen Food,186.08,40.00,180
+954722,Ice Cream,Instant & Frozen Food,616.45,40.00,180
+131937,Frozen Pizza,Instant & Frozen Food,287.81,40.00,180
+925482,Frozen Biryani,Instant & Frozen Food,475.04,40.00,180
+611575,Frozen Pizza,Instant & Frozen Food,482.06,40.00,180
+272170,Ice Cream,Instant & Frozen Food,140.80,40.00,180
+53833,Rice,Grocery & Staples,134.69,15.00,365
+876139,Pulses,Grocery & Staples,415.75,15.00,365
+937542,Wheat Flour,Grocery & Staples,97.04,15.00,365
+490602,Sugar,Grocery & Staples,549.47,15.00,365
+287070,Wheat Flour,Grocery & Staples,443.17,15.00,365
+317242,Pulses,Grocery & Staples,198.15,15.00,365
+644847,Salt,Grocery & Staples,622.81,15.00,365
+993331,Pulses,Grocery & Staples,102.44,15.00,365
+94225,Toilet Cleaner,Household Care,77.11,25.00,365
+552496,Dish Soap,Household Care,508.00,25.00,365
+455755,Detergent,Household Care,44.09,25.00,365
+144124,Detergent,Household Care,162.67,25.00,365
+677542,Toilet Cleaner,Household Care,212.61,25.00,365
+604184,Toilet Cleaner,Household Care,397.55,25.00,365
+697683,Toilet Cleaner,Household Care,123.74,25.00,365
+709916,Detergent,Household Care,33.76,25.00,365
+897083,Detergent,Household Care,972.69,25.00,365
+863930,Shampoo,Personal Care,242.57,35.00,365
+112390,Toothpaste,Personal Care,877.98,35.00,365
+753354,Shampoo,Personal Care,423.56,35.00,365
+490939,Lotion,Personal Care,80.25,35.00,365
+684939,Lotion,Personal Care,727.95,35.00,365
+615545,Soap,Personal Care,448.16,35.00,365
+970529,Diapers,Baby Care,827.44,30.00,365
+820973,Baby Wipes,Baby Care,114.52,30.00,365
+432617,Baby Wipes,Baby Care,863.18,30.00,365
+57405,Baby Food,Baby Care,607.67,30.00,365
+256783,Pet Treats,Pet Care,906.54,35.00,365
+913428,Pet Treats,Pet Care,392.22,35.00,365
+757274,Pet Treats,Pet Care,98.32,35.00,365
+642612,Pet Treats,Pet Care,517.03,35.00,365
+760828,Pet Treats,Pet Care,563.45,35.00,365
+451812,Pain Reliever,Pharmacy,530.85,20.00,365
+706112,Vitamins,Pharmacy,478.79,20.00,365
+566052,Pain Reliever,Pharmacy,87.30,20.00,365
+264803,Vitamins,Pharmacy,995.98,20.00,365
+992178,Pain Reliever,Pharmacy,632.43,20.00,365
+56589,Vitamins,Pharmacy,517.77,20.00,365
+123983,Cough Syrup,Pharmacy,785.67,20.00,365
+444361,Pain Reliever,Pharmacy,822.63,20.00,365
+679284,Cough Syrup,Pharmacy,877.89,20.00,365
+240179,Cough Syrup,Pharmacy,90.56,20.00,365
