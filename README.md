@@ -1,20 +1,26 @@
 # Blinkit SQL Analysis (PostgreSQL)
 
-End-to-end SQL analysis of a quick-commerce dataset using PostgreSQL.
+End-to-end SQL analysis of a quick-commerce dataset to evaluate customer behavior, revenue trends, delivery performance, and sentiment patterns.
 
 ---
 
-## 📌 Project Objective
+# 📌 Project Objective
 
-To analyze customer behavior, sales performance, delivery efficiency, and feedback sentiment using structured SQL queries.
+The goal of this project is to simulate real-world business intelligence analysis for a quick-commerce platform similar to Blinkit.
 
-The goal is to simulate real-world business intelligence analysis for a quick-commerce platform like Blinkit.
+This analysis focuses on:
+
+- Customer retention & purchase frequency
+- Revenue distribution across product categories
+- Delivery performance and delay causes
+- Customer sentiment patterns
+- Spend-based customer segmentation
 
 ---
 
-## 🗂 Dataset Overview
+# 🗂 Dataset Overview
 
-The dataset consists of 6 relational tables:
+The dataset consists of the following relational tables:
 
 - customers
 - orders
@@ -23,104 +29,169 @@ The dataset consists of 6 relational tables:
 - delivery
 - feedback
 
-The dataset was optimized and structured for analytical clarity.
+The analysis was performed using PostgreSQL.
 
 ---
 
-## 🛠 Tools Used
+# 🛠 Tools Used
 
 - PostgreSQL
-- pgAdmin 4
+- pgAdmin
 - GitHub
 
 ---
 
-## 🏗 Database Design
-
-Relational schema includes:
-
-- Primary & Foreign Keys
-- Aggregation-based segmentation
-- Join operations across multiple tables
-
-Schema file: `queries/schema.sql`
+# 📊 Business Analysis & Insights
 
 ---
 
-## 📊 Business Analysis Performed
+## 1️⃣ Customer Order Distribution
 
-### 1️⃣ Order & Revenue Analysis
-- Total orders
-- Monthly revenue trend
-- Monthly order growth
+![Customer Order Distribution](visuals/customer_order_distribution.png)
 
-### 2️⃣ Customer Analysis
-- Customer segmentation (High / Mid / Low value)
-- Repeat customers
-- Top spending customers
+### 🔎 Insights
 
-### 3️⃣ Product & Category Performance
-- Top selling products
-- Revenue by category
-- Units sold analysis
+- The majority of customers placed only **one order (~80%)**.
+- Very few customers placed more than two orders.
+- This indicates **extremely low customer retention**.
+- The platform is heavily dependent on acquiring new customers rather than retaining existing ones.
 
-### 4️⃣ Delivery Performance
-- On-time vs delayed delivery rate
-- Recurring delay reasons
-- Traffic-based delays
-- Partner-wise delay distribution
+### 📌 Business Risk
 
-### 5️⃣ Sentiment Analysis
-- Feedback sentiment breakdown
-- Sentiment vs delivery status correlation
+High acquisition dependency increases marketing cost and reduces long-term profitability.
 
 ---
 
-## 🔎 Key Insights
+## 2️⃣ Customer Segmentation (Spend-Based)
 
-- Majority of customers place only 1 order (low retention opportunity)
-- Traffic is the primary recurring cause of delays
-- Mid-value customers generate most delayed orders
-- Delivery distance does not significantly impact delay probability
-- Dairy & Breakfast is the top revenue-generating category
-- Bread is the highest selling product
-- Neutral sentiment dominates feedback
+![Customer Segments](visuals/customer_segments.png)
+
+### 🔎 Insights
+
+- Most customers fall into the **Low Value segment**.
+- A very small percentage are High Value customers.
+- Revenue is likely concentrated among a small group of repeat buyers.
+
+### 📌 Business Opportunity
+
+- Upselling and cross-selling strategies could increase average order value.
+- Loyalty programs can help convert Low Value customers into Mid or High Value segments.
 
 ---
 
-## 📈 Advanced SQL Concepts Used
+## 3️⃣ Customer Sentiment Distribution
+
+![Customer Sentiments](visuals/customer_sentiments.png)
+
+### 🔎 Insights
+
+- Neutral sentiment dominates customer feedback.
+- Negative feedback is significantly high.
+- Positive feedback is comparatively lower.
+
+### 📌 Business Interpretation
+
+Customer satisfaction is moderate but not strong.  
+Service improvements—especially in delivery and app experience—could significantly improve brand perception.
+
+---
+
+## 4️⃣ Delivery Delay Reasons
+
+![Delivery Delay Reasons](visuals/delivery_delay_reasons.png)
+
+### 🔎 Insights
+
+- Traffic is the primary reason for delays.
+- High demand is the secondary contributor.
+
+### 📌 Operational Insight
+
+The business could improve performance by:
+
+- Optimizing delivery routing
+- Expanding micro-fulfillment centers
+- Managing peak-hour demand more effectively
+
+---
+
+## 5️⃣ Delivery Status Breakdown
+
+![Delivery Status](visuals/delivery_status.png)
+
+### 🔎 Insights
+
+- Around 60% of deliveries are On Time.
+- The remaining share includes Slightly Delayed, Delayed, and Significantly Delayed orders.
+- Delay rate is not negligible for a quick-commerce model.
+
+### 📌 Business Impact
+
+Delivery delays directly influence customer sentiment and repeat purchase probability.
+
+Reducing delays can improve both retention and customer satisfaction.
+
+---
+
+## 6️⃣ Category Revenue Performance
+
+![Category Revenue](visuals/category_revenue.png)
+
+### 🔎 Insights
+
+- Dairy & Breakfast is the highest revenue-generating category.
+- Pharmacy is the second highest.
+- Revenue is concentrated in essential daily-use products.
+- Long-tail categories contribute significantly less.
+
+### 📌 Strategic Insight
+
+The business is highly dependent on essential goods.
+
+Opportunities exist to:
+- Promote underperforming categories
+- Bundle high-demand and low-demand products
+- Increase basket size through strategic cross-selling
+
+---
+
+# 🧠 Key Strategic Takeaways
+
+- Customer retention is the biggest challenge.
+- Revenue is concentrated among low-spend customers.
+- Delivery delays impact customer satisfaction.
+- Essential goods dominate revenue share.
+- Operational optimization could directly improve profitability.
+
+---
+
+# 📈 Advanced SQL Concepts Used
 
 - GROUP BY & HAVING
 - Subqueries
+- Aggregations (SUM, COUNT, AVG)
 - CASE statements
-- Aggregations (SUM, AVG, COUNT)
 - JOIN operations
-- ORDER BY & LIMIT
-- Conditional filtering
+- Window functions
 
 ---
 
-## 📁 Project Structure
+# 📂 Project Structure
 
 ```
-data/              → Raw CSV files
-queries/           → All SQL scripts
-README.md          → Documentation
+data/        → Raw CSV files  
+queries/     → SQL scripts  
+visuals/     → Analysis charts  
+README.md    → Documentation  
 ```
 
 ---
 
-## 🚀 How to Run This Project
+# 👤 Author
 
-1. Create database in PostgreSQL
-2. Run `schema.sql`
-3. Import CSV files
-4. Run business and advanced analysis scripts
-
----
-
-## 📬 Author
-
-**Devarun Bharadwaj**
+Devarun Bharadwaj  
 MSc Molecular & Cellular Biology  
-Transitioning to Data Analytics  
+Transitioning into Data Analytics  
+
+---
+
